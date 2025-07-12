@@ -57,7 +57,7 @@ function startBotLoop() {
 
   bot.on('end', () => {
     log(`🔌 Bot disconnected. Rejoining in 5s...`);
-    setTimeout(startBotLoop, 5000);
+    setTimeout(startBotLoop, 500000000000);
   });
 }
 
